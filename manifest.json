@@ -1,0 +1,48 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["Koro"],
+    "generated_with": {
+      "bridge": ["2.7.54"],
+      "dash": ["0.11.7"],
+      "blockbench_block_wizard": ["1.7.0"]
+    },
+    "product_type": "addon",
+    "url": "https://www.youtube.com/@yKoro"
+  },
+  "header": {
+    "name": "Player Down Help",
+    "description": "",
+    "min_engine_version": [1, 26, 0],
+    "uuid": "2d5615ee-6123-4846-befd-611fe79a7c42",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "1362e9e3-c1e5-49e7-bce0-0e4e7a49055f",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "022abfde-fcfa-43fb-960e-e1e3bf1d9eb7",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "da8a684d-9a27-41ba-a24d-6e948bf5d607",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.7.0"
+    },
+    {
+      "module_name": "@minecraft/common",
+      "version": "1.3.0"
+    }
+  ]
+}
