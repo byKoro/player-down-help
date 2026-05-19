@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "player_down_rp",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "block_down": {
+      "textures": "textures/blocks/block_down"
+    }
+  }
+}

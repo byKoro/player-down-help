@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Player Down RP",
+    "description": "",
+    "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "metadata": { "product_type": "addon" },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "2d5615ee-6123-4846-befd-611fe79a7c42",
+      "version": [1, 0, 0]
+    }
+  ]
+}
